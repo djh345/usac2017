@@ -41,7 +41,7 @@ class UsacbasicSpider(scrapy.Spider):
             if count==1:#skip value for 'Select Field'
                 continue
             payload = "__RequestVerificationToken="+str(token)+"" \
-                      "&SelectedFundingYear=2017&SelectedStateId=" + str(everystate) + "&BilledEntityNumber=&CRN=&SPIN=&frnServiceType%5B0%5D.Id=1&frnServiceType%5B0%5D.ServiceName=Voice" \
+                      "&SelectedFundingYear=2018&SelectedStateId=" + str(everystate) + "&BilledEntityNumber=&CRN=&SPIN=&frnServiceType%5B0%5D.Id=1&frnServiceType%5B0%5D.ServiceName=Voice" \
                       "&frnServiceType%5B0%5D.IsSelected=true&frnServiceType%5B0%5D.IsSelected=false&frnServiceType%5B1%5D.Id=2&frnServiceType%5B1%5D.ServiceName=Data+Transmission+and" \
                       "%2For+Internet+Access&frnServiceType%5B1%5D.IsSelected=true&frnServiceType%5B1%5D.IsSelected=false&frnServiceType%5B2%5D.Id=3" \
                       "&frnServiceType%5B2%5D.ServiceName=Basic+Maintenance+of+Internal+Connections&frnServiceType%5B2%5D.IsSelected=true&frnServiceType%5B2%5D.IsSelected=false" \
